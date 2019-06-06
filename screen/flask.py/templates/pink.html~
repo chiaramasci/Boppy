@@ -1,0 +1,79 @@
+<html>
+   <body>
+   <style type="text/css">
+   	body {
+ 			margin:0!important;
+   		padding: 0.2em 1em;
+   		border: 5px solid #E75480;
+   		color: #E75480;
+   	}
+   	.object {
+   		width: 32%;
+   		margin: 0.1em;
+   		display: inline-block; 
+			vertical-align:top;
+   	}
+   	.object img {
+			width: 40%;
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+   	}
+   	.object h1 {
+   		font-size:28px;
+			text-align: center;
+   	}
+   	.main {
+			display: block;
+			width:100%;
+   	}
+   	.main h2{
+   		margin: 10px 0 0 0; 
+			font-size:40px;
+			text-transform:uppercase;
+			text-align: center;
+   	}
+   	.main h3 {
+   		margin: 0 0 20px 0;
+   		text-align: center;
+   		font-size: 25px;
+   	}
+   	.main p{
+   		margin:0 10px; 
+   		display: inline-block;	
+   	}
+   	.main span {
+   		font-size: 30px;
+			font-weight:bold;
+			font-style:oblique;
+			text-transform:uppercase;   	
+   	}
+   	.red{
+   	color: red;}
+   	.white{
+   	background-color:#E75480;
+   	color:white;}
+   </style>
+    <div class="main">
+   	<h2>pink / Rose / rosa</h2>
+   	<h3>Secondary Color / Sekundär Farbe / Colore Secondario <br> 
+   	<p><span class="red">red</span> + <span class="white">white </span></p>
+   	<p><span class="red">  Rot</span> + <span class="white">Weiß </span></p>
+   	<p><span class="red">  rosso</span> + <span class="white">bianco</span></p>
+   	</h3>
+   </div>
+    <div class="object">
+    	<img src="src/pink/flamingo.png" alt="pink"/>
+    	<h1>flamingo / Flamingo / fenicottero</h1>
+    </div>
+    <div class="object">
+    	<img src="src/pink/shell.png" alt="pink"/>
+    	<h1>shell / Muschel / conchiglia</h1>
+    </div>
+    <div class="object">
+    	<img style= "width:30%" src="src/pink/peppa.png" alt="pink"/>
+    	<h1>piglet / Wutz  / maialino</h1>
+    </div>
+   
+   </body>
+</html>

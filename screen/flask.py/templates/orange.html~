@@ -1,0 +1,79 @@
+<html>
+   <body>
+   <style type="text/css">
+   	body {
+ 			margin:0!important;
+   		padding: 0.2em 1em;
+   		border: 5px solid orange;
+   		color: orange;
+   	}
+   	.object {
+   		width: 32%;
+   		margin: 0.1em;
+   		display: inline-block; 
+			vertical-align:top;
+   	}
+   	.object img {
+			width: 40%;
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+   	}
+   	.object h1 {
+   		font-size:28px;
+			text-align: center;
+   	}
+   	.main {
+			display: block;
+			width:100%;
+   	}
+   	.main h2{
+   		margin: 10px 0 0 0; 
+			font-size:40px;
+			text-transform:uppercase;
+			text-align: center;
+   	}
+   	.main h3 {
+   		margin: 0 0 20px 0;
+   		text-align: center;
+   		font-size: 25px;
+   	}
+   	.main p{
+   		margin:0 10px; 
+   		display: inline-block;	
+   	}
+   	.main span {
+   		font-size: 30px;
+			font-weight:bold;
+			font-style:oblique;
+			text-transform:uppercase;   	
+   	}
+   	.red{
+   	color: red;}
+   	.white{
+   	background-color:orange;
+   	color:gold;}
+   </style>
+    <div class="main">
+   	<h2>orange / Orange / arancione</h2>
+   	<h3>Secondary Color / Sekundär Farbe / Colore Secondario <br> 
+   	<p><span class="red">red</span> + <span class="gold">yellow </span></p>
+   	<p><span class="red">  Rot</span> + <span class="gold">Gelb </span></p>
+   	<p><span class="red">  rosso</span> + <span class="gold">giallo</span></p>
+   	</h3>
+   </div>
+    <div class="object">
+    	<img style= "width:80%"src="src/orange/tiger.png" alt="orange"/>
+    	<h1>tiger / Tiger / tigre</h1>
+    </div>
+    <div class="object">
+    	<img src="src/orange/basketball.png" alt="orange"/>
+    	<h1>ball / Ball / palla</h1>
+    </div>
+    <div class="object">
+    	<img style= "width:40%" src="src/orange/pumpkin.png" alt="orange"/>
+    	<h1>pumpkin / Kürbis  / zucca</h1>
+    </div>
+   
+   </body>
+</html>
